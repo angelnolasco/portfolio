@@ -20,7 +20,7 @@ const Projects = () => {
     },
     {
       title: 'X-LIBRARY',
-      description: "Built with Python-based & Django Web Framework.",
+      description: "Built with Python-based Django Web Framework in collaboration with a team of talented and dedicated individuals.",
       link: 'https://github.com/angelnolasco/x-library'
     }
   ];
