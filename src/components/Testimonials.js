@@ -14,7 +14,6 @@ const Testimonials = () => {
       company: 'XYZ Corporation',
       testimonial: 'Nulla vitae nisl id quam vulputate cursus. Sed non purus rutrum, ullamcorper tortor ac, aliquet ipsum.'
     },
-    // Add more testimonials as needed
   ];
 
   return (
