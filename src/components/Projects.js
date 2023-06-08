@@ -6,17 +6,17 @@ const Projects = () => {
     {
       title: 'Musician Discovery Tool',
       description: "Built with HTML, CSS & JavaScript (jQuery)",
-      link: 'https://github.com/angelnolasco/project-1'
+      link: 'https://angelnolasco.github.io/project-1/'
     },
     {
       title: 'FIGHT CLUB',
       description: "Built with EJS, CSS, JavaScript, MongoDB & Mongoose.",
-      link: 'https://github.com/angelnolasco/project-2'
+      link: 'https://angel-project-2.herokuapp.com/'
     },
     {
       title: 'HIKEHUB',
       description: "Built with HTML, MongoDB, Express.js, React, Node.js & CSS.",
-      link:'https://github.com/angelnolasco/project-4-frontend'
+      link:'https://timely-conkies-6ffe8a.netlify.app/'
     },
     {
       title: 'X-LIBRARY',
