@@ -24,7 +24,7 @@ const Contact = () => {
   return (
     <div className="contact-container">
       <h1 className="contact-title">Contact Me</h1>
-      <p className="contact-info">Phone: 347-586-7979</p>
+      {/* <p className="contact-info">Phone: 347-586-7979</p> */}
       <p className="contact-info">Email: angelnolasco24@gmail.com</p>
       <p className="contact-info">Location: Charlotte, NC</p>
       <h2 className="contact-title">Let's Get in Touch</h2>
