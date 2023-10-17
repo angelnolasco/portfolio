@@ -1,5 +1,5 @@
-import React from 'react';
-import "./Testimonials.css";
+// import React from 'react';
+// import "./Testimonials.css";
 
 
 // const Testimonials = () => {
@@ -30,4 +30,4 @@ import "./Testimonials.css";
 //   );
 // };
 
-export default Testimonials;
+// export default Testimonials;
