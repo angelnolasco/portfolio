@@ -23,11 +23,12 @@ const Contact = () => {
 
   return (
     <div className="contact-container">
-      <h1 className="contact-title">Contact Me</h1>
-      <p className="contact-info">Email: angelnolasco24@gmail.com</p>
-      <p className="contact-info">Location: Charlotte, NC</p>
-      <h2 className="contact-title">Let's Get in Touch</h2>
-      <form className="contact-form" onSubmit={handleSubmit}>
+  <h1 className="contact-title">Contact Me</h1>
+  <p className="contact-info">Email: angelnolasco24@gmail.com</p>
+  <p className="contact-info">LinkedIn: <a href="https://www.linkedin.com/in/angel-nolasco-53b97b270/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+  <p className="contact-info">Location: Charlotte, NC</p>
+  <h2 className="contact-title">Let's Get in Touch</h2>
+  <form className="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name</label>
           <input
@@ -70,10 +71,6 @@ const Contact = () => {
             onChange={handleChange}
             required
           />
-        </div>
-        <div>
-          <label htmlFor="linkedin">LinkedIn</label>
-          <a href="https://www.linkedin.com/in/angel-nolasco-53b97b270/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
         <button type="submit">Send Message</button>
       </form>
