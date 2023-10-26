@@ -34,3 +34,7 @@
   color: #555;
   text-decoration: underline;
 }
+
+.project-button {
+  margin-right: 10px; 
+}
