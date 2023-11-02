@@ -25,15 +25,13 @@
 .home-description {
   font-size: 16px;
   margin-top: -5px;
-}
+} */
 
- */
-
- .home-container {
+.home-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end; /* Align to the bottom */
   height: 100vh;
   text-align: center;
   color: white;
@@ -44,11 +42,14 @@
 
 .home-title {
   font-size: 24px;
-  margin-bottom: 20px; /* Increase the margin to move it down more */
+  margin-bottom: 10px;
+  margin-top: -10px; /* Remove the negative margin-top */
 }
 
 .home-description {
   font-size: 16px;
-  margin-top: 10px; /* Increase the margin to move it down more */
+  margin-top: 10px; /* Adjust margin-top to position it closer to the bottom */
 }
 
+
+ 
