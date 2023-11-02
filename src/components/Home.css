@@ -1,4 +1,4 @@
-.home-container {
+/* .home-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,4 +27,28 @@
   margin-top: -5px;
 }
 
+ */
+
+ .home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./ScreenShot.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.home-title {
+  font-size: 24px;
+  margin-bottom: 20px; /* Increase the margin to move it down more */
+}
+
+.home-description {
+  font-size: 16px;
+  margin-top: 10px; /* Increase the margin to move it down more */
+}
 
